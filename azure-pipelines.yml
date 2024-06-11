@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'proj4'
     location: 'East US 2'
     templateLocation: 'Linked artifact'
-    csmFile: 'https://github.com/czyzadam/pipeline-arm-repo/blob/main/create_web_app/azuredeploy.json'
+    csmFile: 'https://raw.githubusercontent.com/czyzadam/pipeline-arm-repo/blob/main/create_web_app/azuredeploy.json'
     overrideParameters: '-projectName [proj4]'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'

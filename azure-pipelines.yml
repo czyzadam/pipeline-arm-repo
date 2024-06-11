@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'proj7'
     location: 'East US 2'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/czyzadam/pipeline-arm-repo/main/create_web_app/azuredeploy.json'
+    csmFileLink: 'https://raw.githubusercontent.com/czyzadam/pipeline-arm-repo/main/create_web_app/azuredeploy.json -H “Authorization: Token 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”'
     overrideParameters: '-projectName proj7'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'

@@ -20,6 +20,6 @@ steps:
     location: 'East US 2'
     templateLocation: 'Linked artifact'
     csmFile: 'https://raw.githubusercontent.com/czyzadam/pipeline-arm-repo/main/create_web_app/azuredeploy.json'
-    overrideParameters: '-projectName [proj4]'
+    overrideParameters: '-projectName [proj5]'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
